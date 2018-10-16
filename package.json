@@ -1,6 +1,6 @@
 {
   "name": "@endemolshinegroup/git-author-check",
-  "description": "sick project...",
+  "description": "A pre-commit tool that validates the commit based on the author's email domain",
   "version": "0.0.1",
   "license": "MIT",
   "main": "dist/index.js",

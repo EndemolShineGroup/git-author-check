@@ -24,10 +24,8 @@ yarn add @endemolshinegroup/git-author-check
 
 ## Usage
 
-```typescript
-import Library from @endemolshinegroup/git-author-check;
-
-const library = new Library();
+```bash
+node @endemolshinegroup/git-author-check;
 ```
 
 [icon-license]: https://img.shields.io/github/license/EndemolShineGroup/git-author-check.svg?longCache=true&style=flat-square
