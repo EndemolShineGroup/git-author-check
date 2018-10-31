@@ -1,0 +1,7 @@
+{
+  "config": {
+    "allowedDomains": ["endemolshine.com"]
+  },
+  "filepath": ".",
+  "isEmpty": false
+}
