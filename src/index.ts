@@ -4,6 +4,8 @@ import getAuthorEmail from './getAuthorEmail';
 import getConfig from './getConfig';
 import validateAuthor from './validateAuthor';
 
-export default () => {
+const run = () => {
   validateAuthor(getConfig(), getAuthorEmail());
 };
+
+run();
