@@ -14,18 +14,36 @@
 [![Semantic Release][icon-semantic-release]][link-semantic-release]
 [![Prettier][icon-prettier]][link-prettier]
 
-sick project...
+A pre-commit tool that validates the commit authors' email address.
 
 ## Installation
 
 ```bash
-yarn add @endemolshinegroup/git-author-check
+yarn add -D husky @endemolshinegroup/git-author-check
 ```
 
 ## Usage
 
-```bash
-node @endemolshinegroup/git-author-check;
+Add a `gitAuthorCheck` property to your `package.json`:
+
+```json
+{
+  "gitAuthorCheck": {
+    "allowedDomains": [
+      "endemolshine.com"
+    ]
+  },
+}
+```
+
+Then add the following to your Husky configuration file:
+
+```json
+{
+  "hooks": {
+    "pre-commit": "git-author-check"
+  }
+}
 ```
 
 [icon-license]: https://img.shields.io/github/license/EndemolShineGroup/git-author-check.svg?longCache=true&style=flat-square
