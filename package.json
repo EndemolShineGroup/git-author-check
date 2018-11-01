@@ -34,10 +34,9 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@endemolshinegroup/cosmiconfig-typescript-loader": "^1.0.0",
-    "@types/cosmiconfig": "^5.0.3",
-    "chalk": "^2.4.1",
-    "cosmiconfig": "^5.0.6"
+    "@endemolshinegroup/cosmiconfig-typescript-loader": "^1",
+    "chalk": "^2",
+    "cosmiconfig": "^5"
   },
   "devDependencies": {
     "@commitlint/cli": "^7",
@@ -47,12 +46,13 @@
     "@endemolshinegroup/tslint-config": "^1",
     "@semantic-release/changelog": "^3",
     "@semantic-release/git": "^7",
+    "@types/cosmiconfig": "^5",
     "@types/jest": "^23",
     "@types/node": "^10",
     "commitizen": "^3",
     "husky": "^1",
     "jest": "^23",
-    "lint-staged": "^8.0.4",
+    "lint-staged": "^8",
     "prettier": "^1",
     "rimraf": "^2",
     "semantic-release": "^15",
