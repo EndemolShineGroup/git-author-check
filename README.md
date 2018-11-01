@@ -24,7 +24,10 @@ yarn add -D husky @endemolshinegroup/git-author-check
 
 ## Usage
 
-Add a `gitAuthorCheck` property to your `package.json`:
+This package uses Cosmiconfig to load its' configuration, so you can add a
+configuration file in one of the following ways:
+
+- a `gitAuthorCheck` property in package.json
 
 ```json
 {
@@ -33,6 +36,19 @@ Add a `gitAuthorCheck` property to your `package.json`:
       "endemolshine.com"
     ]
   },
+}
+```
+
+- a `.gitauthorcheckrc` file in JSON or YAML format
+- a `.gitauthorcheckrc.json` file
+- a `.gitauthorcheckrc.yaml`, `.gitauthorcheckrc.yml`, or `.gitauthorcheckrc.js` file
+- a `gitauthorcheck.config.js` or `gitauthorcheck.config.ts` file exporting a JS object
+
+```json
+{
+  "allowedDomains": [
+    "endemolshine.com"
+  ]
 }
 ```
 
