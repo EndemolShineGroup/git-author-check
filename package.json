@@ -5,11 +5,6 @@
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "gitAuthorCheck": {
-    "allowedDomains": [
-      "endemolshine.com"
-    ]
-  },
   "bin": {
     "git-author-check": "dist/index.js"
   },
