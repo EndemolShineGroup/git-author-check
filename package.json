@@ -1,7 +1,7 @@
 {
   "name": "@endemolshinegroup/git-author-check",
   "description": "A pre-commit tool that validates the commit based on the author's email domain",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
