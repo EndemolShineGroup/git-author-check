@@ -1,6 +1,6 @@
 {
   "hooks": {
     "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-    "pre-commit": "node dist/index.js && lint-staged"
+    "pre-commit": "lint-staged"
   }
 }

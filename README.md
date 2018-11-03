@@ -1,4 +1,4 @@
-# @endemolshinegroup/git-author-check
+![Banner][icon-banner]
 
 [![MIT Licensed][icon-license]][link-license]
 [![NPM Version][icon-npm]][link-npm]
@@ -61,6 +61,8 @@ Then add the following to your Husky configuration file:
   }
 }
 ```
+
+[icon-banner]: docs/assets/banner.png
 
 [icon-license]: https://img.shields.io/github/license/EndemolShineGroup/git-author-check.svg?longCache=true&style=flat-square
 [link-license]: LICENSE
