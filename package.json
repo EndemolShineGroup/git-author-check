@@ -47,7 +47,7 @@
     "@semantic-release/changelog": "^3",
     "@semantic-release/git": "^7",
     "@types/cosmiconfig": "^5",
-    "@types/jest": "^23",
+    "@types/jest": "^24.0.24",
     "@types/node": "^10",
     "commitizen": "^3",
     "husky": "^1",
