@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@endemolshinegroup/cosmiconfig-typescript-loader": "^1",
-    "chalk": "^2",
+    "chalk": "^4.0.0",
     "cosmiconfig": "^5",
     "tslib": "^1.9.3"
   },
